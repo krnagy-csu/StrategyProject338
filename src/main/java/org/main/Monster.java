@@ -18,7 +18,7 @@ public class Monster {
 
     @Override
     public String toString() {
-        return String.format("%s has : hp = %s/%s%n",this.getClass().getName(),hp,maxHP);
+        return String.format("hp = %s/%s%n",hp,maxHP);
     }
 
     public Integer getHp() {
