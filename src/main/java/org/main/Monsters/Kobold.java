@@ -1,4 +1,4 @@
-package org.main;
+package org.main.Monsters;
 
 import java.util.HashMap;
 

@@ -1,5 +1,9 @@
 package org.main;
 
+import org.main.Monsters.Imp;
+import org.main.Monsters.Kobold;
+import org.main.Monsters.Monster;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

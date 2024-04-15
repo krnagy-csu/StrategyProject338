@@ -1,6 +1,8 @@
-package org.main;
+package org.main.Abilities;
 
-public class MeleeAttack implements Attack{
+import org.main.Monsters.Monster;
+
+public class MeleeAttack implements Attack {
     Monster attacker;
 
     public MeleeAttack(Monster attacker){

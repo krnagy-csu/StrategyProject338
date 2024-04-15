@@ -1,4 +1,6 @@
-package org.main;
+package org.main.Abilities;
+
+import org.main.Monsters.Monster;
 
 public interface Attack extends Ability{
 

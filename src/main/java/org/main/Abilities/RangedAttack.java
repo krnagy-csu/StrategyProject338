@@ -1,6 +1,8 @@
-package org.main;
+package org.main.Abilities;
 
-public class RangedAttack implements Attack{
+import org.main.Monsters.Monster;
+
+public class RangedAttack implements Attack {
     Monster attacker;
 
     public RangedAttack(Monster attacker){
