@@ -16,6 +16,10 @@ public class Imp extends Monster {
         stats.put("def",super.getAttribute(def,maxDef));
         stats.put("agi",super.getAttribute(agi,maxAgi));
 
+        str = stats.get("str");
+        def = stats.get("def");
+        agi = stats.get("agi");
+
         attack = new MeleeAttack(this);
     }
 
